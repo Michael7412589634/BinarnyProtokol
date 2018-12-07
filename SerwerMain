@@ -1,0 +1,13 @@
+#include "Serwer.h"
+
+int main()
+{
+	printf("\t===SERWER===\n");
+	Serwer s(62081);
+	for (int i = 0; i < 100; i++)
+	{
+		s.czekajnapolaczenie();
+	}
+	getchar();
+	return 0;
+}
